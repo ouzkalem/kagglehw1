@@ -1,0 +1,25 @@
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+dist/
+build/
+
+# Data — images are too large for GitHub
+data/
+datas/test_images/
+datas/train_images/
+
+# Model checkpoints
+models/
+*.pth
+
+# Results
+results/
+
+# Jupyter
+.ipynb_checkpoints/
+
+# OS
+.DS_Store
+Thumbs.db
